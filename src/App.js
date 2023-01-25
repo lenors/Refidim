@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from '../src/Pages/Header'
+import Home from '../src/Pages/Home'
+import { GlobalStyle } from './Pages/Styles/Globalstyle';
 
 import React from 'react'
 
@@ -8,7 +9,9 @@ import React from 'react'
 const App = () => {
   return (
     <div>
-      <h1><Header/></h1>
+      <GlobalStyle/>
+      <Home/>
+      
     </div>
   )
 }
